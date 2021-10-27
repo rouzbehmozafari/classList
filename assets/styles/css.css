@@ -1,0 +1,60 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    max-width: 1440px;
+}
+
+/* Header */
+
+
+/* Main */
+
+div {
+    display: inline-block;
+    margin: 3%;
+    text-align: center;
+    width: 200px;
+    height: 200px ;
+}
+section {
+    text-align: center;
+    margin: 2% 5%;
+}
+
+form {
+    margin: 10% 30%;
+}
+
+form *{
+    margin: 1%;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button + button {
+    background-color: darkgray;
+}
+
+.col {
+    background-color: cyan;
+}
+
+.round {
+    border-radius: 100px  ;
+}
+
+.backimg {
+    background-image: url('https://c8.alamy.com/comp/2BHG705/colourful-conceptual-images-2BHG705.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Footer */
